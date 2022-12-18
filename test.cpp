@@ -4,34 +4,24 @@ using namespace std;
 
 class Solution {
 public:
-    int search(vector<int>& nums, int target) {
-        int left = 0;
-        int right = nums.size(); // 左闭右开
-        int middle = 0;
-        while(left < right) {
-            middle = left + (right - left)/2;
-            if(nums[middle] > target) {
-                right = middle;
-            }
-            else if(nums[middle] < target) {
-                left = middle + 1;
-            }
-            else {
-                return middle;
+    int removeElement(vector<int>& nums, int val) {
+        int slowIndex = 0;
+        for(int fastIndex =0; fastIndex < nums.size(); fastIndex++) {
+            if(val != nums[fastIndex]) {
+                nums[slowIndex++] = nums[fastIndex];
             }
         }
-        return -1;
+        return slowIndex;
     }
 };
 
 int main()
 {
     Solution slu;
-    vector<int> a ={
-        1,4,7,9,10,24
+    vector<int> a = {
+        1,4,4,8
     };
-    int result = slu.search(a,9);
-    cout<<result<<endl;
+    cout<<slu.removeElement(a,4)<<endl;
 }
 
 
