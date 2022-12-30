@@ -12,7 +12,7 @@
 时间               作者                版本         操作内容
 2022/12/30        niu0217            V1.0         完成函数
 ********************************************************************** */
-int CSolution::Search_1(vector<int>& vctNums, int iTarget)
+int CSolution704::Search_1(vector<int>& vctNums, int iTarget)
 {
     int iLeft = 0;
     int iRight = vctNums.size() - 1;//左闭右闭区间
@@ -41,7 +41,7 @@ int CSolution::Search_1(vector<int>& vctNums, int iTarget)
 时间               作者                版本         操作内容
 2022/12/30        niu0217            V1.0         完成函数
 ********************************************************************** */
-int CSolution::Search_2(vector<int>& vctNums, int iTarget)
+int CSolution704::Search_2(vector<int>& vctNums, int iTarget)
 {
     int iLeft = 0;
     int iRight = vctNums.size(); // 左闭右开
@@ -70,7 +70,7 @@ int CSolution::Search_2(vector<int>& vctNums, int iTarget)
 时间               作者                版本         操作内容
 2022/12/30        niu0217            V1.0         完成函数
 ********************************************************************** */
-void CSolution::Test()
+void CSolution704::Test()
 {
     vector<int> vctNums = {1,4,9,12,16};
     int iTarget = 12;

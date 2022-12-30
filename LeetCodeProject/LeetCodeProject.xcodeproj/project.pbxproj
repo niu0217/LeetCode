@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A1FF15CE295DCCAB007BBB93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FF15CD295DCCAB007BBB93 /* main.cpp */; };
 		A1FF15D9295DCDD2007BBB93 /* 704.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FF15D7295DCDD2007BBB93 /* 704.cpp */; };
+		A1FF15DE295F19D0007BBB93 /* 27.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FF15DC295F19D0007BBB93 /* 27.cpp */; };
+		A1FF15E1295F1EEC007BBB93 /* 26.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FF15DF295F1EEC007BBB93 /* 26.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		A1FF15CD295DCCAB007BBB93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A1FF15D7295DCDD2007BBB93 /* 704.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 704.cpp; sourceTree = "<group>"; };
 		A1FF15D8295DCDD2007BBB93 /* 704.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 704.hpp; sourceTree = "<group>"; };
+		A1FF15DC295F19D0007BBB93 /* 27.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 27.cpp; sourceTree = "<group>"; };
+		A1FF15DD295F19D0007BBB93 /* 27.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 27.hpp; sourceTree = "<group>"; };
+		A1FF15DF295F1EEC007BBB93 /* 26.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 26.cpp; sourceTree = "<group>"; };
+		A1FF15E0295F1EEC007BBB93 /* 26.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 26.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 			children = (
 				A1FF15D7295DCDD2007BBB93 /* 704.cpp */,
 				A1FF15D8295DCDD2007BBB93 /* 704.hpp */,
+				A1FF15DC295F19D0007BBB93 /* 27.cpp */,
+				A1FF15DD295F19D0007BBB93 /* 27.hpp */,
+				A1FF15DF295F1EEC007BBB93 /* 26.cpp */,
+				A1FF15E0295F1EEC007BBB93 /* 26.hpp */,
 			);
 			path = ArrayAL;
 			sourceTree = "<group>";
@@ -150,6 +160,8 @@
 			files = (
 				A1FF15CE295DCCAB007BBB93 /* main.cpp in Sources */,
 				A1FF15D9295DCDD2007BBB93 /* 704.cpp in Sources */,
+				A1FF15DE295F19D0007BBB93 /* 27.cpp in Sources */,
+				A1FF15E1295F1EEC007BBB93 /* 26.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

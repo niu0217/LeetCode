@@ -1,9 +1,9 @@
 #include<iostream>
-#include"704.hpp"
+#include"26.hpp"
 using namespace std;
 
 int main()
 {
-    CSolution clsSolution;
-    clsSolution.Test();
+    CSolution26 clsSolution26;
+    clsSolution26.Test();
 }
