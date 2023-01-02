@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11FD87F296312CA00327A77 /* 977.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11FD87D296312CA00327A77 /* 977.cpp */; };
 		A1FF15CE295DCCAB007BBB93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FF15CD295DCCAB007BBB93 /* main.cpp */; };
 		A1FF15D9295DCDD2007BBB93 /* 704.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FF15D7295DCDD2007BBB93 /* 704.cpp */; };
 		A1FF15DE295F19D0007BBB93 /* 27.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FF15DC295F19D0007BBB93 /* 27.cpp */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A11FD87D296312CA00327A77 /* 977.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 977.cpp; sourceTree = "<group>"; };
+		A11FD87E296312CA00327A77 /* 977.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 977.hpp; sourceTree = "<group>"; };
 		A1FF15CA295DCCAB007BBB93 /* LeetCodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FF15CD295DCCAB007BBB93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A1FF15D7295DCDD2007BBB93 /* 704.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 704.cpp; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				A1FF160D296072B1007BBB93 /* 283.hpp */,
 				A1FF160F2961A4A5007BBB93 /* 844.cpp */,
 				A1FF16102961A4A5007BBB93 /* 844.hpp */,
+				A11FD87D296312CA00327A77 /* 977.cpp */,
+				A11FD87E296312CA00327A77 /* 977.hpp */,
 			);
 			path = ArrayAL;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 			files = (
 				A1FF16112961A4A5007BBB93 /* 844.cpp in Sources */,
 				A1FF15CE295DCCAB007BBB93 /* main.cpp in Sources */,
+				A11FD87F296312CA00327A77 /* 977.cpp in Sources */,
 				A1FF15D9295DCDD2007BBB93 /* 704.cpp in Sources */,
 				A1FF160E296072B1007BBB93 /* 283.cpp in Sources */,
 				A1FF15DE295F19D0007BBB93 /* 27.cpp in Sources */,
